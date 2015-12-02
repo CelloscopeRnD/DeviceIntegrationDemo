@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }

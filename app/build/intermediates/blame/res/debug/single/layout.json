@@ -4,6 +4,66 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\tab_indicator.xml"
     },
     {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picmain.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_picmain.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_general.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_general.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_textapply.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_textapply.xml"
+    },
+    {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usb.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_usb.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wifi.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_wifi.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actvity_barcode.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\actvity_barcode.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picmain.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_picmain.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picdraw.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_picdraw.xml"
+    },
+    {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_linkcontact.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_linkcontact.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_language.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_language.xml"
+    },
+    {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_linkcontact.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_linkcontact.xml"
+    },
+    {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_printmode.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_printmode.xml"
+    },
+    {
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picapply.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_picapply.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actvity_barcode.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\actvity_barcode.xml"
     },
@@ -12,16 +72,20 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_com.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picmain.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_picmain.xml"
-    },
-    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_textapply.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_textapply.xml"
     },
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_connect.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_connect.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wifi.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_wifi.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_textmain.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_textmain.xml"
     },
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picapply.xml",
@@ -36,20 +100,20 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_connect.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usb.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_usb.xml"
-    },
-    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_textmain.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_textmain.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_linkcontact.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_linkcontact.xml"
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_printmode.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_printmode.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\tab_indicator.xml"
     },
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picdraw.xml",
@@ -60,11 +124,15 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_general.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_printmode.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_printmode.xml"
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_com.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_com.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usb.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\layout\\activity_usb.xml"
     }
 ]

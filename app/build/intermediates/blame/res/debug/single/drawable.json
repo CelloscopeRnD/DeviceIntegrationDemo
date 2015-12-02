@@ -1,15 +1,43 @@
 [
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_unselected.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_unselected.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_background.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\app_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_press.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_press.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_press.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_press.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_texthome.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_texthome.xml"
     },
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_selected.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_selected.xml"
     },
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_focus.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_focus.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_text.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_text.xml"
     },
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_picdraw.xml",
@@ -20,6 +48,10 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_text.xml"
     },
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_selected.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_selected.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_background.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\app_background.xml"
     },
@@ -28,8 +60,16 @@
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_textbarcode.xml"
     },
     {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_piclan.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_piclan.xml"
+    },
+    {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_unselected.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_unselected.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_picdraw.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_picdraw.xml"
     },
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_focus.xml",
@@ -42,5 +82,9 @@
     {
         "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_piclan.xml",
         "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable\\tab_piclan.xml"
+    },
+    {
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_textbarcode.xml",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable\\tab_textbarcode.xml"
     }
 ]
