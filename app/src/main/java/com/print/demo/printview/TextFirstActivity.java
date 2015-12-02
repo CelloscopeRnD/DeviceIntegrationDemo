@@ -76,7 +76,7 @@ public class TextFirstActivity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 
-				state = context.getObject().CON_QueryStatus(context.getState());
+				state = context.getPrinter().CON_QueryStatus(context.getState());
 				if (state == 0) {
 					Toast.makeText(TextFirstActivity.this,
 							R.string.mes_stateOK, Toast.LENGTH_SHORT).show();
@@ -96,18 +96,18 @@ public class TextFirstActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				context.getObject().CON_PageStart(context.getState(), false,
+				context.getPrinter().CON_PageStart(context.getState(), false,
 						Integer.parseInt(wight.getText().toString()),
 						Integer.parseInt(hight.getText().toString()));
 
 				if (label.isChecked()) {
-					context.getObject().CON_SetDensity(context.getState(), 8);
-					context.getObject().CON_SetSpeed(context.getState(), 6);
-					context.getObject().CON_SetPrintDirection(
+					context.getPrinter().CON_SetDensity(context.getState(), 8);
+					context.getPrinter().CON_SetSpeed(context.getState(), 6);
+					context.getPrinter().CON_SetPrintDirection(
 							context.getState(), 0);
-					context.getObject().ASCII_PrintString(context.getState(),
+					context.getPrinter().ASCII_PrintString(context.getState(),
 							10, 10, 2, 2, text.getText().toString(), "gb2312");
-					context.getObject().ASCII_Print1DBarcode(
+					context.getPrinter().ASCII_Print1DBarcode(
 							context.getState(), 0, 10, 50, 2, 50, "code print");
 				}
 				else {
@@ -120,22 +120,22 @@ public class TextFirstActivity extends Activity {
 						alignType = 2;
 					}
 
-					context.getObject().ASCII_CtrlOppositeColor(
+					context.getPrinter().ASCII_CtrlOppositeColor(
 							context.getState(), OppositeColor.isChecked());
-					context.getObject().ASCII_CtrlAlignType(context.getState(),
+					context.getPrinter().ASCII_CtrlAlignType(context.getState(),
 							alignType);
-					context.getObject().ASCII_PrintString(context.getState(),
+					context.getPrinter().ASCII_PrintString(context.getState(),
 							dwight.isChecked()?1:0,
 							dhight.isChecked()?1:0,
 							dthick.isChecked()?1:0,
 							underline.isChecked()?1:0,
 							small.isChecked()?1:0,
 							text.getText().toString(), "gb2312");
-					context.getObject().ASCII_CtrlFeedLines(context.getState(), 1);
-					context.getObject().ASCII_CtrlPrintCRLF(context.getState(), 1);
+					context.getPrinter().ASCII_CtrlFeedLines(context.getState(), 1);
+					context.getPrinter().ASCII_CtrlPrintCRLF(context.getState(), 1);
 				}
-				context.getObject().CON_PageEnd(context.getState(),
-						context.getPrintway());
+				context.getPrinter().CON_PageEnd(context.getState(),
+						context.getPrintMode());
 			}
 		});
 	}

@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\DemoProject\app\libs\regoPrintLibV3.0.04.jar"
+        jar="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\incremental-classes\debug\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="83a7fedb7bdfffeb0e9a1dba7112a2dd21c8a0a0">
-        <dex dex="E:\DemoProject\app\build\intermediates\pre-dexed\debug\regoPrintLibV3.0.04_994da42e86bfc77feca459a9a1f1df0102c601f8.jar" />
-    </item>
-    <item
-        jar="E:\DemoProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aaaebfe62eb46086850bc6e3cd3044b238ea11b0">
-        <dex dex="E:\DemoProject\app\build\intermediates\pre-dexed\debug\instant-run_afae86cc9a36687fe6a22c2d8cc7479d733133e0.jar" />
-    </item>
-    <item
-        jar="E:\DemoProject\app\build\intermediates\incremental-classes\debug\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9f31eef503a48186a718dbb6152196c5321340a6">
-        <dex dex="E:\DemoProject\app\build\intermediates\pre-dexed\debug\classes_66c28a78f8ab74c34a5e252d275ef3cad872139a.jar" />
+        sha1="833c32793b2de6b118a2900b2e155c1ceee8fdeb">
+        <dex dex="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\pre-dexed\debug\classes_1b048a0dce6eb11f13f405a5436af5ef58d11911.jar" />
     </item>
 
 </items>

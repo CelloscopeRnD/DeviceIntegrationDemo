@@ -158,19 +158,19 @@ public class TextSecondActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				context.getObject().CON_PageStart(context.getState(), false, 0,
+				context.getPrinter().CON_PageStart(context.getState(), false, 0,
 						0);
-				context.getObject().ASCII_CtrlReset(context.getState());
+				context.getPrinter().ASCII_CtrlReset(context.getState());
 				int hri = hripostion.getSelectedItemPosition();
 				if (barcode.isChecked()) {
-					context.getObject().ASCII_Print1DBarcode(
+					context.getPrinter().ASCII_Print1DBarcode(
 							context.getState(),
 							barcodetype.getSelectedItemPosition() + 65,
 							Integer.parseInt(barwide.getText().toString()),
 							Integer.parseInt(barhight.getText().toString()),
 							hri, bartext.getText().toString());
 				} else {
-					context.getObject().ASCII_Print2DBarcode(
+					context.getPrinter().ASCII_Print2DBarcode(
 							context.getState(),
 							barcodetype.getSelectedItemPosition(),
 							bartext.getText().toString(),
@@ -178,8 +178,8 @@ public class TextSecondActivity extends Activity {
 							Integer.parseInt(barhight.getText().toString()),
 							Integer.parseInt(barhri.getText().toString()));
 				}
-				context.getObject().CON_PageEnd(context.getState(),
-						context.getPrintway());
+				context.getPrinter().CON_PageEnd(context.getState(),
+						context.getPrintMode());
 			}
 		});
 	}

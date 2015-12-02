@@ -8,14 +8,12 @@ import utils.ApplicationContext;
 import utils.preDefiniation.BarcodeType;
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class GraphicSecondActivity extends Activity {
 	private ApplicationContext context;
@@ -47,51 +45,51 @@ public class GraphicSecondActivity extends Activity {
 				R.drawable.printico);
 		context = (ApplicationContext) getApplicationContext();
 
-		mobileprinter = context.getObject();
+		mobileprinter = context.getPrinter();
 		iObjectCode = context.getState();
 
 		pridraw.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				context.getObject().CON_PageStart(context.getState(), true,
+				context.getPrinter().CON_PageStart(context.getState(), true,
 						Integer.parseInt(wight.getText().toString()),
 						Integer.parseInt(hight.getText().toString()));
-				context.getObject().ASCII_CtrlReset(context.getState());
-				context.getObject().DRAW_SetFillMode(false);
-				context.getObject().DRAW_SetLineWidth(4);
-				context.getObject().DRAW_PrintText(context.getState(), 10, 10,
+				context.getPrinter().ASCII_CtrlReset(context.getState());
+				context.getPrinter().DRAW_SetFillMode(false);
+				context.getPrinter().DRAW_SetLineWidth(4);
+				context.getPrinter().DRAW_PrintText(context.getState(), 10, 10,
 						"REGO", 60);
-				context.getObject().DRAW_PrintLine(context.getState(), 162, 7,
+				context.getPrinter().DRAW_PrintLine(context.getState(), 162, 7,
 						162, 70);
-				context.getObject().DRAW_PrintText(context.getState(), 164, 10,
+				context.getPrinter().DRAW_PrintText(context.getState(), 164, 10,
 						"Èð¹¤", 60);
-				context.getObject().DRAW_PrintText(context.getState(), 90, 80,
+				context.getPrinter().DRAW_PrintText(context.getState(), 90, 80,
 						"×¨ÒµÎ¢ÐÍ´òÓ¡²úÆ·Éè¼Æ¡¢Éú²ú¡¢ÏúÊÛ", 18);
-				context.getObject().DRAW_PrintRectangle(context.getState(), 10,
+				context.getPrinter().DRAW_PrintRectangle(context.getState(), 10,
 						100, 320, 160);
-				context.getObject().DRAW_PrintLine(context.getState(), 25, 110,
+				context.getPrinter().DRAW_PrintLine(context.getState(), 25, 110,
 						25, 140);
-				context.getObject().DRAW_PrintLine(context.getState(), 25, 140,
+				context.getPrinter().DRAW_PrintLine(context.getState(), 25, 140,
 						57, 140);
-				context.getObject().DRAW_PrintLine(context.getState(), 25, 110,
+				context.getPrinter().DRAW_PrintLine(context.getState(), 25, 110,
 						57, 140);
-				context.getObject().DRAW_PrintCircle(context.getState(), 90,
+				context.getPrinter().DRAW_PrintCircle(context.getState(), 90,
 						125, 15);
-				context.getObject().DRAW_PrintOval(context.getState(), 120,
+				context.getPrinter().DRAW_PrintOval(context.getState(), 120,
 						110, 160, 140);
-				context.getObject().DRAW_PrintPicture(context.getState(),
+				context.getPrinter().DRAW_PrintPicture(context.getState(),
 						bitmap, 165, 102, 53, 44);
-				context.getObject().DRAW_PrintRectangle(context.getState(),
+				context.getPrinter().DRAW_PrintRectangle(context.getState(),
 						225, 110, 250, 140);
-				context.getObject().DRAW_Print1D2DBarcode(context.getState(),
+				context.getPrinter().DRAW_Print1D2DBarcode(context.getState(),
 						BarcodeType.BT_QRcode.getValue(), 257, 100, 58, 58,
 						"12345678");
-				context.getObject().DRAW_SetRotate(context.getState(), 90);
-				context.getObject().DRAW_PrintPicture(context.getState(),
+				context.getPrinter().DRAW_SetRotate(context.getState(), 90);
+				context.getPrinter().DRAW_PrintPicture(context.getState(),
 						bitmaptwo, 0, 170, 268, 176);
-				context.getObject().CON_PageEnd(context.getState(),
-						context.getPrintway());
+				context.getPrinter().CON_PageEnd(context.getState(),
+						context.getPrintMode());
 			}
 		});
 	}

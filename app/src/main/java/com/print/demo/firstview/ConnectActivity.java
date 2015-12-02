@@ -2,18 +2,14 @@ package com.print.demo.firstview;
 
 import java.util.ArrayList;
 
-import rego.printlib.export.regoPrinter;
-
 import utils.ApplicationContext;
 import utils.LinkContactActivity;
 import com.print.demorego.R;
 import com.print.demo.secondview.PrintModeActivity;
 
-import android.R.integer;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -27,7 +23,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ConnectAvtivity extends Activity {
+public class ConnectActivity extends Activity {
 
 	public int state;
 	public String PrintName;
@@ -62,19 +58,19 @@ public class ConnectAvtivity extends Activity {
 
 
 		context = (ApplicationContext) getApplicationContext();
-		context.setObject();
+		context.setPrinter();
 
 		linktest = (Button) findViewById(R.id.TextView_linktest);
 		link = (TextView) findViewById(R.id.TextView_link);
 		version = (TextView) findViewById(R.id.text_version);
-		version.setText("V " + context.getObject().CON_QueryVersion());
+		version.setText("V " + context.getPrinter().CON_QueryVersion());
 		type = (Spinner) findViewById(R.id.spinner_type);
 		porttype = (Spinner) findViewById(R.id.spinner_porttype);
 		printway = (Spinner) findViewById(R.id.spinner_printway);
 		show = (LinearLayout) findViewById(R.id.linearLayout0);
 
 		ArrayList<String> printName = new ArrayList<String>();
-		printName = (ArrayList<String>) context.getObject()
+		printName = (ArrayList<String>) context.getPrinter()
 				.CON_GetSupportPrinters();
 
 		mAdapter = new ArrayAdapter<String>(this,
@@ -82,7 +78,7 @@ public class ConnectAvtivity extends Activity {
 		mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		type.setAdapter(mAdapter);
 
-		String[] printInterface = context.getObject().CON_GetSupportPageMode();
+		String[] printInterface = context.getPrinter().CON_GetSupportPageMode();
 		mAdapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, printInterface);
 		mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -104,12 +100,12 @@ public class ConnectAvtivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (mBconnect) {
-					Intent intent = new Intent(ConnectAvtivity.this,
+					Intent intent = new Intent(ConnectActivity.this,
 							PrintModeActivity.class);
 
 					startActivity(intent);
 				} else {
-					Toast.makeText(ConnectAvtivity.this, R.string.mes_nextpage,
+					Toast.makeText(ConnectActivity.this, R.string.mes_nextpage,
 							Toast.LENGTH_SHORT).show();
 				}
 			}
@@ -130,11 +126,11 @@ public class ConnectAvtivity extends Activity {
 						btName = (Spinner) findViewById(R.id.spinner_btname);
 
 						getbtName.clear();
-						mAdapter = new ArrayAdapter<String>(ConnectAvtivity.this,
+						mAdapter = new ArrayAdapter<String>(ConnectActivity.this,
 								android.R.layout.simple_spinner_item, getbtName);
 						btName.setAdapter(mAdapter);
 
-						getbtNM = (ArrayList<String>) context.getObject()
+						getbtNM = (ArrayList<String>) context.getPrinter()
 								.CON_GetWirelessDevices(0);
 						// ¶Ô»ñµÃµÄÀ¶ÑÀµØÖ·ºÍÃû³Æ½øÐÐ²ð·ÖÒÔ¶ººÅ½øÐÐ²ð·Ö
 						for (int i = 0; i < getbtNM.size(); i++) {
@@ -143,7 +139,7 @@ public class ConnectAvtivity extends Activity {
 									17));
 						}
 
-						mAdapter = new ArrayAdapter<String>(ConnectAvtivity.this,
+						mAdapter = new ArrayAdapter<String>(ConnectActivity.this,
 								android.R.layout.simple_spinner_item, getbtName);
 						mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 						btName.setAdapter(mAdapter);
@@ -233,7 +229,7 @@ public class ConnectAvtivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(ConnectAvtivity.this,
+				Intent intent = new Intent(ConnectActivity.this,
 						LinkContactActivity.class);
 				startActivity(intent);
 			}
@@ -244,27 +240,27 @@ public class ConnectAvtivity extends Activity {
 	public void connect(String port) {
 
 		if (mBconnect) {
-			context.getObject().CON_CloseDevices(context.getState());
+			context.getPrinter().CON_CloseDevices(context.getState());
 
 			con.setText(R.string.button_btcon);// "Á¬½Ó"
 			mBconnect = false;
 		} else {
 
-			state = context.getObject().CON_ConnectDevices(PrintName, port, 200);
+			state = context.getPrinter().CON_ConnectDevices(PrintName, port, 200);
 
 			if (state > 0) {
-				Toast.makeText(ConnectAvtivity.this, R.string.mes_consuccess,
+				Toast.makeText(ConnectActivity.this, R.string.mes_consuccess,
 						Toast.LENGTH_SHORT).show();
 				mBconnect = true;
 				con.setText(R.string.TextView_close);// "¹Ø±Õ"
-				Intent intent = new Intent(ConnectAvtivity.this,
+				Intent intent = new Intent(ConnectActivity.this,
 						PrintModeActivity.class);
 				context.setState(state);
-				context.setName(PrintName);
-				context.setPrintway(printway.getSelectedItemPosition());
+				context.setPrinterName(PrintName);
+				context.setPrintMode(printway.getSelectedItemPosition());
 				startActivity(intent);
 			} else {
-				Toast.makeText(ConnectAvtivity.this, R.string.mes_confail,
+				Toast.makeText(ConnectActivity.this, R.string.mes_confail,
 						Toast.LENGTH_SHORT).show();
 				mBconnect = false;
 				con.setText(R.string.button_btcon);// "Á¬½Ó"

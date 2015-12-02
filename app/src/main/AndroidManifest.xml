@@ -21,7 +21,7 @@
         android:icon="@drawable/icon"
         android:theme="@style/app_theme" >
         <activity
-            android:name="com.print.demo.firstview.ConnectAvtivity"
+            android:name="com.print.demo.firstview.ConnectActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>

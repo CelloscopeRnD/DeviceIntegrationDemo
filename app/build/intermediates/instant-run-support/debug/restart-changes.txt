@@ -1,0 +1,10 @@
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$1.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3$5.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$2.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3$4.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3$2.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$4.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3$3.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3$1.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity.class
+E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\transforms\instantRun\debug\folders\1\1\main\com\print\demo\firstview\ConnectActivity$3.class

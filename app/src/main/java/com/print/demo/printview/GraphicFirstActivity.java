@@ -37,20 +37,20 @@ public class GraphicFirstActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				context.getObject().CON_PageStart(context.getState(), true,
+				context.getPrinter().CON_PageStart(context.getState(), true,
 						Integer.parseInt(wight.getText().toString()),
 						Integer.parseInt(hight.getText().toString()));
-				context.getObject().DRAW_SetFillMode(false);
+				context.getPrinter().DRAW_SetFillMode(false);
 				// ¶Ô¶àÓïÑÔÊý¾Ý½øÐÐ´¦ÀíÒ»ÐÐÒ»ÐÐ´¦Àí
 				int y = 20;
 				String str[] = languageText.getText().toString().split("\n");
 				for (int i = 0; i < str.length; i++) {
 					y += 25;
-					context.getObject().DRAW_PrintText(context.getState(), 20,
+					context.getPrinter().DRAW_PrintText(context.getState(), 20,
 							y, str[i], 24);
 				}
-				context.getObject().CON_PageEnd(context.getState(),
-						context.getPrintway());
+				context.getPrinter().CON_PageEnd(context.getState(),
+						context.getPrintMode());
 			}
 		});
 	}
