@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\AndroidProjects\DeviceIntegrationDemo\app\src\main\assets"><file name="brother.prn" path="E:\AndroidProjects\DeviceIntegrationDemo\app\src\main\assets\brother.prn"/><file name="cpcl.txt" path="E:\AndroidProjects\DeviceIntegrationDemo\app\src\main\assets\cpcl.txt"/></source></dataSet><dataSet config="debug"><source path="E:\AndroidProjects\DeviceIntegrationDemo\app\src\debug\assets"/></dataSet></merger>
