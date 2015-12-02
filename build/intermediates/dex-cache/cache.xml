@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d90b376ee5d2b7dcad9dd3449306837f27eb6f50">
+        <dex dex="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\pre-dexed\debug\instant-run_8b691708b730e71ff8162e1ffb2d56c1345e9fd5.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\DeviceIntegrationDemo\app\libs\regoPrintLibV3.0.04.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="83a7fedb7bdfffeb0e9a1dba7112a2dd21c8a0a0">
+        <dex dex="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\pre-dexed\debug\regoPrintLibV3.0.04_786c3dd05d6f5d8b6b121fd0e3337002ae2edd53.jar" />
+    </item>
+    <item
         jar="E:\AndroidProjects\DeviceIntegrationDemo\app\build\intermediates\incremental-classes\debug\classes.jar"
         jumboMode="false"
         revision="23.0.1"

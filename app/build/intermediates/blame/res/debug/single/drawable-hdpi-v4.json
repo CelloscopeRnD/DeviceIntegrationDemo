@@ -1,15 +1,15 @@
 [
     {
-        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pdf417.png",
-        "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable-hdpi\\pdf417.png"
+        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
         "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\upc_e.png",
         "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable-hdpi\\upc_e.png"
     },
     {
-        "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
-        "source": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "E:\\DemoProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pdf417.png",
+        "source": "E:\\DemoProject\\app\\src\\main\\res\\drawable-hdpi\\pdf417.png"
     },
     {
         "merged": "E:\\AndroidProjects\\DeviceIntegrationDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_selected.png",
