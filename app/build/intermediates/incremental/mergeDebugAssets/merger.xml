@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\DemoProject\app\src\main\assets"><file name="brother.prn" path="E:\DemoProject\app\src\main\assets\brother.prn"/><file name="cpcl.txt" path="E:\DemoProject\app\src\main\assets\cpcl.txt"/></source></dataSet><dataSet config="debug"><source path="E:\DemoProject\app\src\debug\assets"/></dataSet></merger>
